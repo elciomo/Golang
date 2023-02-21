@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+var EbulicaoC = 100
+
+func main() {
+
+	TC := EbulicaoC
+	TK := TC + 273
+	fmt.Printf("Ponto de ebuição da Água em ºK = %d convertido para ºC = %d", TK, TC)
+}
